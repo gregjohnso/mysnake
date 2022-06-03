@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['bottle==0.12.13',
+requirements = ['bottle==0.12.20',
                 'gevent==1.3.6',
                 'greenlet==0.4.14',
                 'gunicorn==19.9.0',
